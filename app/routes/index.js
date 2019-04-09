@@ -170,14 +170,99 @@ export default Route.extend({
                 ]
             },
             tools: {
-                transport: [],
-                architect: [],
-                tool: [],
-                machine: [],
-                tool2: [],
-                machine2: []
+                transport: [
+                    'Car, Truck, Bus',
+                    'Aircraft',
+                    'Rail, Train, Trolly',
+                    'Cycle',
+                    'Sled, Ski',
+                    'Boat, Ship',
+                    'Spacecraft',
+                    'Tank Tread'
+                ],
+                architect: [
+                    'Ornament, Gargoyle',
+                    'Bridge, Framework',
+                    'Castle, Domed',
+                    'Ornament, Pillar',
+                    'Modern Skyscraper',
+                    'Place of Worship, Totem',
+                    'Doorway, Archway',
+                    'Old Village, Cottage'
+                ],
+                tool: [
+                    'Drill',
+                    'Cups, Plates',
+                    'Umbrella',
+                    'Bundle, Bale',
+                    'Hammer, Axe',
+                    'Brush - Hair, Tooth',
+                    'Razor, Knife',
+                    'Spigot, Faucet',
+                    'Rope',
+                    'Silverware',
+                    'Lock, Key'
+                ],
+                machine: [
+                    'Switch, Dial, Button',
+                    'Turbine',
+                    'Bulb, Lamp',
+                    'Clock, Gears',
+                    'Fan, Propeller',
+                    'Saw'
+                ],
+                tool2: [
+                    'Adhesive, Bandage',
+                    'Shovel, Pick',
+                    'Capsule, Tablet',
+                    'Nuts, Bolts',
+                    'Chain',
+                    'Thread, Stitch',
+                    'Shears, Scissors',
+                    'Pen, Paintbrush',
+                    'Spring, Coil',
+                    'Syringe',
+                    'Tube, Plumbing'
+                ],
+                machine2: [
+                    'Reactor Core',
+                    'Telephone',
+                    'Solar Panel',
+                    'Engine',
+                    'Laser Beam',
+                    'Microchip',
+                    'Dish, Antenna',
+                    'Rocket'
+                ]
             },
-            action: []
+            action: [
+                'Recoil, Akimbo',
+                'Drenched, Thirsty',
+                'Blown by Cyclone',
+                'Pushing, Pulling',
+                'Snooping, Listening',
+                'Crouched for Attack',
+                'Hanging, Climbing',
+                'Recoil, Head/Torso',
+                'Floating, Levitating',
+                'Swinging Weapon',
+                'Twisting, Stretching',
+                'Kicking, Punching',
+                'Squeezing, Tackling',
+                'Absorbing, Eating',
+                'Limping, Injured',
+                'Cursing, Swearing',
+                'Running, Jumping',
+                'Melt, Glow, Fire',
+                'Stuck, Trapped',
+                'Shooting Weapon',
+                'Dying, Gaunt',
+                'Flying, Swimming',
+                'Shedding, Molting',
+                'Chanting, Reciting',
+                'Punching, Kicking',
+                'Crawling, Emerging'
+            ]
         }
     }
 });
