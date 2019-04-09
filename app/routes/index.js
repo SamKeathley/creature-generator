@@ -87,16 +87,87 @@ export default Route.extend({
                 ]
             },
             veggie: {
-                plant: [],
-                fruitVeg: [],
-                fungi: [],
-                tree: []
+                plant: [
+                    'Seaweed',
+                    'Fern',
+                    'Desert, Cacti',
+                    'Thick Leaf - Jade',
+                    'Flower - Domestic',
+                    'Vine',
+                    'Poppy',
+                    'Grass, Dandelion',
+                    'Bamboo',
+                    'Flower - Wild',
+                    'Carnivorous'
+                ],
+                fruitVeg: [
+                    'Asparagus',
+                    'Pinecone',
+                    'Berry, Grapes',
+                    'Ginger',
+                    'Tree Fruit (Apple, Orange)',
+                    'Bean',
+                    'Pumpkin, Gourd',
+                    'Broccoli, Artichoke',
+                    'Corn',
+                    'Grain, Wheat',
+                    'Pineapple'
+                ],
+                fungi: [
+                    'Moss',
+                    'Ooze, Jelly',
+                    'Lichen',
+                    'Mushroom'
+                ],
+                tree: [
+                    'Willow',
+                    'Birch',
+                    'Maple, Oak',
+                    'Banyan',
+                    'Pine',
+                    'Palm'
+                ]
             },
             element: {
-                fireElec: [],
-                liquid: [],
-                earthMetal: [],
-                astral: []
+                fireElec: [
+                    'Fire, Vapor',
+                    'Electric Bolt',
+                    'Ember, Hot Coal',
+                    'Molten Lava'
+                ],
+                liquid: [
+                    'Icicles',
+                    'Fog, Vapor',
+                    'Wave',
+                    'Dew Drops',
+                    'Ripple',
+                    'Frost, Snow',
+                    'Suds, Bubbles',
+                    'Tar, Gum'
+                ],
+                earthMetal: [
+                    'Malachite',
+                    'Mountain, Cliff Face',
+                    'Brick, Cobblestone',
+                    'Rust, Oxide',
+                    'Cracked Clay',
+                    'Stalactite, Stalagmite',
+                    'Glass, Crystal',
+                    'Powder, Sand',
+                    'Slate, Shale',
+                    'Cement, Sediment',
+                    'Mercury, Chrome'
+                ],
+                astral: [
+                    'Moon Cycles',
+                    'Starfield',
+                    'Crater, Asteroid',
+                    'Solar Flare',
+                    'Galaxy Form',
+                    'Volcano',
+                    'Planets, Saturn\'s Rings',
+                    'Cloud, Cyclone'
+                ]
             },
             tools: {
                 transport: [],
